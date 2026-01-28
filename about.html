@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | B.S.CHOWDARY DIGITAL BOOK STORE</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.hero-section { text-align: center; margin-bottom: 50px; }
+.hero-section h1 { font-family: 'Cinzel Decorative'; 
+            font-size: 2.5rem; 
+            color: var(--text); 
+            margin-bottom: 20px;}
+.hero-section h1 span { color: var(--primary); }
+.hero-section p { color: #94a3b8; line-height: 1.8; margin-bottom: 30px; }
+
+.brand-story { display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            gap: 40px; 
+            align-items: center; 
+            margin-top: 40px;
+            padding-top: 40px;
+            border-top: 1px solid rgba(255,255,255,0.05);}
+.story-content h2 { color: var(--accent); margin-bottom: 15px; }
+.story-content p { color: #94a3b8; margin-bottom: 15px; line-height: 1.6; }
+
+.feat-card { background: rgba(255, 255, 255, 0.03); 
+            padding: 25px; 
+            border-radius: 20px; 
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: 0.3s;}
+        .feat-card:hover { border-color: var(--primary); transform: translateY(-5px); }
+        .feat-card h3 { color: var(--primary); margin-bottom: 10px; }
+        .feat-card p { font-size: 0.9rem; color: #94a3b8; }
+
+@media (max-width: 768px) {.brand-story { grid-template-columns: 1fr; }}
+
+</style>
+</head>
+<body>
+    <nav>
+        <div class="logo" onclick="window.location.href='index.html'">B.S.CHOWDARY DIGITAL BOOK STORE</div>
+        <div class="nav-links">
+            <a href="index.html" style="color:var(--primary)">HOME</a>
+            <a href="privacy.html">PRIVACY</a>
+            <a href="terms.html">TERMS</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="modal animate" style="max-width: 1000px;">
+            <section class="hero-section">
+                <span class="last-updated">INNOVATION MEETS EDUCATION</span>
+                <h1>Empowering Your <span>Digital Future</span></h1>
+                <p>Premium resources meticulously crafted for the next generation of Tech Leaders and Financial Experts. Discover our special seasonal launches and take the next step in your learning journey.</p>
+            </section><br>
+
+<section class="steps-container animate" style="margin-top: 60px; padding: 40px 20px; background: rgba(30, 41, 59, 0.4); border-radius: 24px; border: 1px solid var(--border);">
+    <h2 style="text-align:center; margin-bottom: 40px; font-size: 2.2rem;">🚀 Our <span style="color:var(--primary)">CATEGORIES</span> IN OUR STORE</h2>
+    <div class="steps-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px;">
+        
+        <div class="card text-center" style="border-top: 2px solid #3b82f6;">
+            <h3 style="color: #60a5fa;">COMPUTER BASICS</h3>
+        </div>
+
+        <div class="card text-center" style="border-top: 2px solid #a855f7;">
+            <h3 style="color: #c084fc;">PYTHON</h3>
+        </div>
+
+        <div class="card text-center" style="border-top: 2px solid #f472b6;">
+            <h3 style="color: #fbcfe8;">JAVA</h3>
+        </div>
+
+        <div class="card text-center" style="border-top: 2px solid #22d3ee;">
+            <h3 style="color: #3b48a9;">C - LANGUAGE</h3>
+        </div>
+
+        <div class="card text-center" style="border-top: 2px solid #fbbf24;">
+            <h3 style="color: #fde68a;">STOCK MARKET</h3>
+        </div>
+
+        <div class="card text-center" style="border-top: 2px solid #22ee66;">
+            <h3 style="color: #67e8f9;">HTML</h3>
+        </div>
+
+        <div class="card text-center" style="border-top: 2px solid #fbbf24;">
+            <h3 style="color: #fde68a;">ENGLISH</h3>
+        </div>  
+    </div>
+    </section>
+
+<section class="steps-container animate" style="margin-top: 60px; padding: 40px 20px; background: rgba(30, 41, 59, 0.4); border-radius: 24px; border: 1px solid var(--border);">
+    <h2 style="text-align:center; margin-bottom: 40px; font-size: 2.2rem;">🚀 Our <span style="color:var(--primary)">9-Step</span> Secure Delivery</h2>
+    
+    <div class="steps-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px;">
+        
+        <div class="card text-center" style="border-top: 4px solid #3b82f6;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">🔍</div>
+            <h3 style="color: #60a5fa;">1. Browse Shop</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Explore our Tech, Finance, and Computer categories to find your guide.</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #a855f7;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">🛒</div>
+            <h3 style="color: #c084fc;">2. Add to Cart</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Select your books and see your total update instantly in the cart pill.</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #f472b6;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">🎟️</div>
+            <h3 style="color: #fbcfe8;">3. Apply Coupon</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Enter a code like 'WELCOME20' to watch the price drop instantly.</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #fbbf24;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">⚖️</div>
+            <h3 style="color: #fde68a;">4. Read Terms</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Review our <b>Privacy Policy & Terms</b> at the bottom of the page before you pay.</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #f97316;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">📸</div>
+            <h3 style="color: #fb923c;">5. Payment via UPI</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Scan the QR code if from laptop or can pay by using link if mobile with UPI apps and complete your payment.</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #10b981;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">✍️</div>
+            <h3 style="color: #6ee7b7;">6. Submit Details</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;"><b>CRITICAL:</b> Enter your Name, Email, and 12-digit UTR ID in the form.</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #6366f1;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">📧</div>
+            <h3 style="color: #818cf8;">7. Get Receipt</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Once you hit submit, check your email for an automated order receipt.</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #ef4444;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">🛡️</div>
+            <h3 style="color: #f87171;">8. Manual Audit</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Our team verifies your UTR against bank records (takes 2-4 hours).</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #22d3ee;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">🎁</div>
+            <h3 style="color: #67e8f9;">9. Final Delivery</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Your high-quality E-book links arrive in your email for lifetime access.</p>
+        </div></div>
+</section>
+
+<section class="brand-story">
+                <div class="story-img">
+                    <img src="https://placehold.co/600x400/0a1f1a/10b981?text=Innovation+Meets+Education" 
+                         alt="Innovation" 
+                         style="width:100%; border-radius:25px; border: 1px solid rgba(255,255,255,0.1);">
+                </div>
+                <div class="story-content">
+                    <h2>Why B.S. Chowdary?</h2>
+                    <p>Our mission is to bridge the gap between complex technology and the Telugu-speaking community. Every digital book we publish is the result of months of research, ensuring clarity, depth, and practical knowledge.</p>
+                    <p>We don’t just sell books; we provide the keys to new careers in Coding, Stock Market, and Digital Marketing—all explained in your mother tongue.</p>
+                </div>
+</section>
+        </div>
+        
+<section class="pro-identity-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 50px 0;">    
+    <div class="feat-card" style="border-top: 4px solid var(--primary); text-align: center;">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">👁️</div>
+        <h3 style="text-transform: uppercase; letter-spacing: 1px;">Our Vision</h3>
+        <p style="color: #94a3b8; line-height: 1.6;">To become India's most trusted digital library, making high-level Tech and Finance education and many more accessible to every student in simple language.</p>
+    </div>
+
+    <div class="feat-card" style="border-top: 4px solid var(--accent); text-align: center;">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">🎯</div>
+        <h3 style="text-transform: uppercase; letter-spacing: 1px;">Our Goal</h3>
+        <p style="color: #94a3b8; line-height: 1.6;">To empower 30,000+ learners by 2030 with practical, project-based E-books that bridge the gap between theory and high-paying careers.</p>
+    </div>
+
+    <div class="feat-card" style="border-top: 4px solid #f472b6; text-align: center;">
+        <div style="font-size: 2.5rem; margin-bottom: 15px;">💡</div>
+        <h3 style="text-transform: uppercase; letter-spacing: 1px;">Our Motto</h3>
+        <p style="color: #94a3b8; line-height: 1.6; font-style: italic;">"Innovation Meets Education." — We believe that lack of content should never be a barrier to mastering the future of technology.</p>
+    </div>
+
+</section>
+    </main>
+
+<footer>
+    <p>© 2026 B.S.CHOWDARY DIGITAL BOOKS. Designed for the Next Generation of Readers.<br>Secure • Trusted • Lifetime Access </p>
+        <div style="margin-top:15px;">
+            <a href="privacy.html">Privacy Policy</a> | 
+            <a href="terms.html">Terms of Use</a>
+        </div>
+</footer>
+
+<script>
+  const steps = {
+    1: { img: "OUTPUT (1).JPG", title: "Empowering Your Future", desc: "Start your journey by entering our Digital Bookstore." },
+    2: { img: "output (10).jpg", title: "Explore Categories", desc: "Choose between Tech Mastery or Finance & Wealth libraries." },
+    3: { img: "output (9).jpg", title: "Select Your Book", desc: "Browse our premium Telugu E-Books like 'Web Dev Mastery'." },
+    4: { img: "output (8).jpg", title: "Check Details", desc: "View book specs, page counts, and pricing in your native language." },
+    5: { img: "output (12).jpg", title: "Scan to Pay", desc: "Use the secure QR code to pay via GPay or PhonePe (8919340667@fam)." },
+    6: { img: "output (11).jpg", title: "Submit Transaction", desc: "Fill in your details and 12-digit UTR for payment verification." },
+    7: { img: "output (13).jpg", title: "Order Confirmed", desc: "Once verified, check your email for the instant download link." },
+    8: { img: "output (6).jpg", title: "Read Securely", desc: "Access your library anytime and read your e-books securely." }
+  };
+
+  function changeStep(num, btn) {
+    document.getElementById('display-img').src = steps[num].img;
+    document.getElementById('step-title').innerText = steps[num].title;
+    document.getElementById('step-desc').innerText = steps[num].desc;
+
+    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.S.CHOWDARY DIGITAL BOOK STORE| Premier Digital Bookstore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo" onclick="showPage('home')">B.S.CHOWDARY DIGITAL BOOK STORE</div>
+        <div class="nav-links">
+            <a onclick="showpage('home')">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="privacy.html">PRIVACY</a>
+            <a href="terms.html">TERMS</a>
+        </div>
+        <div class="cart-pill" onclick="showPage('cart')">🛒 <span id="cart-count">0</span> Items</div>
+    </nav>
+
+    <main id="home-page" class="page container">
+        <section class="hero animate">
+            <h1>Read E-Books <br><span style="color:var(--primary)">Securely</span></h1>
+            <p style="color: #94a3b8; margin-top:10px;">Premium E-Books with life time access upon single purchase.</p><br>
+            <button class="btn btn-p" style="margin-bottom:10px;" onclick="showPage('store')">ENTER THE STORE ➡️</button>
+        </section>
+
+            <p><b>NOTE:</b> <span style="color:red"> As we started our store recently so that some books may show unavailable due to the traffic going over site so kindly dont select the books showing not available.</span></p>
+
+<section class="dos-donts-container animate" style="margin-top: 50px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">    
+    <div style="background: rgba(16, 185, 129, 0.1); padding: 30px; border-radius: 20px; border: 1px solid #10b981;">
+        <h2 style="color: #10b981; margin-bottom: 20px;">✅ Do's</h2>
+        <ul style="list-style: none; padding: 0; line-height: 2;">
+            <li>✔️ <b>Check Email Twice:</b> Ensure your email address is 100% correct before submitting.</li>
+            <li>✔️<b>Order-Id:</b>Please copy your order id for future reference.</li>
+            <li>✔️ <b>Capture UTR:</b> Take a screenshot of the payment success screen for your records.</li>
+            <li>✔️ <b>Wait 4 Hours:</b> Allow us time to manually verify your transaction with the bank.</li>
+            <li>✔️ <b>Check Spam Folder:</b> Sometimes our automated receipt might land in your 'Junk' folder.</li>
+            <li>✔️ <b>Confirmation mail:</b>Check for the order confirmation mail in the mail used for buying.</li>
+        </ul>
+    </div>
+
+    <div style="background: rgba(239, 68, 68, 0.1); padding: 30px; border-radius: 20px; border: 1px solid #ef4444;">
+        <h2 style="color: #ef4444; margin-bottom: 20px;">❌ Don'ts</h2>
+        <ul style="list-style: none; padding: 0; line-height: 2;">
+            <li>🚫 <b>No Fake UTRs:</b> Entering random numbers will lead to cancelling of your order.</li>
+            <li>🚫 <b>Don't Refresh:</b> Do not refresh the page while the payment submission is processing.</li>
+            <li>🚫 <b>No Shared Links:</b> Your download link is unique to you; sharing it may block your access.</li>
+            <li>🚫 <b>Don't Panic:</b> If 3 hours pass and you haven't received your email, click below:</li><button class="btn btn-s" style="margin-top: 10px; width: 100%; border-color: #ef4444; color: #ef4444;" onclick="showPage('support')">📩 Submit a Query</button></ul>
+    </div></section>
+
+<section class="steps-container animate" style="margin-top: 60px; padding: 40px 20px; background: rgba(30, 41, 59, 0.4); border-radius: 24px; border: 1px solid var(--border);">
+    <h2 style="text-align:center; margin-bottom: 40px; font-size: 2.2rem;">🚀 Our <span style="color:var(--primary)">9-Step</span> Secure Delivery</h2>
+    <div class="steps-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px;">
+        
+        <div class="card text-center" style="border-top: 4px solid #3b82f6;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">🔍</div>
+            <h3 style="color: #60a5fa;">1. Browse Shop</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Explore our Tech, Finance, and Computer categories to find your guide.</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #a855f7;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">🛒</div>
+            <h3 style="color: #c084fc;">2. Add to Cart</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Select your books and see your total update instantly in the cart pill.</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #f472b6;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">🎟️</div>
+            <h3 style="color: #fbcfe8;">3. Apply Coupon</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Enter a coupon code to get the instant price drop instantly.</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #fbbf24;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">⚖️</div>
+            <h3 style="color: #fde68a;">4. Read Terms</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Review our <b>Privacy Policy & Terms</b> at the bottom of the page before you pay.</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #f97316;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">📸</div>
+            <h3 style="color: #fb923c;">5. Payment via UPI</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Scan the QR code if from laptop or can pay by using link if mobile with UPI apps and complete your payment.</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #10b981;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">✍️</div>
+            <h3 style="color: #6ee7b7;">6. Submit Details</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;"><b>CRITICAL:</b> Enter your Name, Email, and 12-digit UTR ID in the form.</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #6366f1;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">📧</div>
+            <h3 style="color: #818cf8;">7. Order Confirmation</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Once you hit submit, check your email for an automated order confirmation mail.</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #ef4444;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">🛡️</div>
+            <h3 style="color: #f87171;">8. Manual Audit</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Our team verifies your UTR against bank records (takes 1-3 hours).</p>
+        </div>
+
+        <div class="card text-center" style="border-top: 4px solid #22d3ee;">
+            <div style="font-size: 2.5rem; margin-bottom: 15px;">🎁</div>
+            <h3 style="color: #67e8f9;">9. Final Delivery</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Your high-quality E-book links arrive in your email for lifetime access.</p>
+        </div></div>
+</section>
+    </main>
+
+<main id="support-page" class="page container hidden">
+    <p class="back-btn" onclick="showPage('home')">← Back to Home</p>
+    
+    <div class="card animate" style="max-width: 600px; margin: 20px auto; padding: 30px;">
+        <h2 style="text-align:center;">🛠️ Support <span style="color:var(--primary)">Desk</span></h2>
+        <p style="text-align:center; color:#94a3b8; margin-bottom:20px;">We usually respond within 3-4 hours.</p>
+
+        <form id="queryForm">
+            <input type="text" id="q-name" placeholder="Your Full Name" required style="width:100%; padding:12px; margin-bottom:15px; background:#1e293b; border:1px solid var(--border); color:white; border-radius:8px;">
+            
+            <input type="text" id="q-orderid" placeholder="Order ID (Optional)" style="width:100%; padding:12px; margin-bottom:15px; background:#1e293b; border:1px solid var(--border); color:white; border-radius:8px;">
+            
+            <input type="email" id="q-email" placeholder="Your Registered Email" required style="width:100%; padding:12px; margin-bottom:15px; background:#1e293b; border:1px solid var(--border); color:white; border-radius:8px;">
+            
+            <input type="text" id="q-contact" placeholder="WhatsApp / Contact Number" style="width:100%; padding:12px; margin-bottom:15px; background:#1e293b; border:1px solid var(--border); color:white; border-radius:8px;">
+            
+            <textarea id="q-complaint" rows="4" placeholder="Describe your issue or suggestion in detail..." required style="width:100%; padding:12px; margin-bottom:20px; background:#1e293b; border:1px solid var(--border); color:white; border-radius:8px;"></textarea>
+
+            <button type="button" class="btn btn-p" onclick="sendSupportQuery()" style="width:100%;">Submit Query</button>
+        </form>
+    </div>
+</main>
+
+    <main id="store-page" class="page container hidden">
+    <h2 style="text-align:center; font-size:3rem; margin-bottom:40px;">Digital Catalog</h2><br>
+    <p>Choose category from the list of Categories</p><br>
+    <div class="grid" style="display:flex; justify-content:center; gap:15px; margin-bottom:50px;">
+        <div class="card" onclick="loadCategory('Python')"><h3>PYTHON BOOKS</h3><br></div>
+        <div class="card" onclick="loadCategory('Java')"><h3>JAVA BOOKS</h3></div>
+        <div class="card" onclick="loadCategory('English')"><h3>ENGLISH BOOKS</h3></div>
+        <div class="card" onclick="loadCategory('Computer basics')"><h3>COMPUTER BASICS BOOKS</h3></div>
+        <div class="card" onclick="loadCategory('Html')"><h3>HTML BOOKS</h3></div>
+        <div class="card" onclick="loadCategory('Stock Market')"><h3>STOCK MARKET</h3></div>
+    </div>
+    </main>
+
+    <main id="books-page" class="page container hidden">
+        <p class="back-btn" onclick="showPage('home')">← Back to Collections</p>
+        <h2 id="cat-title">Books</h2>
+        <div id="book-list" class="grid"></div>
+    </main>
+
+    <main id="cart-page" class="page container hidden">
+        <div class="modal animate">
+            <h2 class="modal-title">Your Selections</h2>
+            <div id="cart-items-display"></div>
+            <div id="checkout-section">
+                <label class="label-tiny" style="font-size:0.75rem; color:var(--accent); font-weight:800;">APPLY DISCOUNT CODE</label>
+                <div class="flex-row"style="display:flex; gap:10px; margin-bottom:20px;" >
+                    <input type="text" id="coupon-input" class="input-box" placeholder="Try SWA20">
+                    <br><button class="btn btn-p auto-width" style="margin:0; width:auto; padding:0 20px" onclick="applyPromo()">Apply</button>
+                </div>
+                <p id="coupon-msg" style="font-size:0.8rem; margin-top:-15px; margin-bottom:15px;"></p>
+                <div class="total-area" style="border-top:1px solid var(--border); padding-top:20px;">
+                    <div class="total-flex" style="display:flex; justify-content:space-between; font-size:1.6rem; font-weight:800;">
+                        <span>Total:</span><span style="color:var(--accent)"><span class="price-text">₹<span id="final-total">0</span></span></span>
+                    </div>
+                    <button id="checkout-btn" class="btn btn-a" onclick="initPayment()" disabled>Proceed to Pay</button>
+                    <p><b>Please copy your payment transaction ID to submit in the details section</b></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main id="payment-page" class="page container hidden">
+        <div class="modal animate text-center">
+            <div class="badge">ORDER ID: <span id="display-oid">---</span></div>
+            <div id="mobile-area" class="hidden">
+                <a id="phonepe-link" href="#"><button class="btn btn-pp">⚡ ONE-CLICK PHONEPE / GPAY</button></a>
+            </div>
+            <div id="qr-area">
+                <div class="qr-frame"><img src="" id="payment-qr"></div>
+            </div>
+                        <div style="text-align:left; background:rgba(239,68,68,0.1); padding:15px; border-radius:12px; margin-bottom:20px; font-size:0.85rem; color:#fca5a5;">
+                <p><b>NO-REFUND POLICY:</b> Digital items are non-refundable. Read our <a href="terms.html">Terms & Conditions</a> | <a href="privacy.html">Privacy Policy</a> before you continue. Pay only if you agree.</p>
+            </div>
+            <div class="text-left">
+                <strong><b>NOTE:</b></strong><p>Please fill all the details correctly to avoid the delivery issues and tick the check box for submitting details</p></b><br>
+                <label class="label-text">FULL NAME</label>
+                <input type="text" id="user-name" class="input-box" placeholder="Your Name" oninput="verifyLock()">
+                <label class="label-text">WHATSAPP NUMBER</label>
+                <input type="tel" id="user-whatsapp" class="input-box" placeholder="ENTER 10-DIGIT NUMBER" oninput="verifyLock()">
+                <label class="label-text">EMAIL ID</label>
+                <input type="email" id="user-email" class="input-box" placeholder="ENTER YOUR MAIL ID" oninput="verifyLock()">
+                <label class="label-tiny">12-DIGIT TRANSACTION ID (UTR)</label>
+                <input type="text" id="utr-input" class="input-box" placeholder="ENTER THE 12 DIGIT TRANSACTION ID YOU COPIED" oninput="verifyLock()">
+                <div class="flex-row items-start">
+                    <input type="checkbox" id="agree-check" onchange="verifyLock()">
+                    <label class="label-tiny gray">I have paid and verified the UTR, and I am aware of all rules mentioned in the privacy policy, terms & conditions.</label><br>
+                </div>
+            </div>
+            <button id="submit-final" class="btn btn-p" disabled onclick="handleFormSubmission()">Confirm & Submit</button>
+        </div>
+
+<section class="steps-container animate" style="margin-top: 60px; padding: 40px 20px; background: rgba(30, 41, 59, 0.4); border-radius: 24px; border: 1px solid var(--border);"> 
+        <div class="card text-center" style="border-top: 4px solid #a855f7;">
+            <h3 style="color: #fbcfe8;">1. Apply Coupon</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Enter a code like 'WELCOME20' to watch the price drop instantly.</p>
+            <h3 style="color: #fde68a;">2. Read Terms</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;">Review our <b>Privacy Policy & Terms</b> at the bottom of the page.</p>
+            <h3 style="color: #6ee7b7;">3. Submit Details</h3>
+            <p style="font-size: 0.85rem; color: #94a3b8;"><b>CRITICAL:</b> Enter your Name, Email, and 12-digit UTR ID correctly in the fields mentioned.</p>
+        </div>
+</div>
+</section>
+    </main>
+
+    <div id="preview-overlay" onclick="closePreview(event)">
+        <div class="preview-box animate" onclick="event.stopPropagation()">
+            <span class="close-preview" onclick="document.getElementById('preview-overlay').style.display='none'">✕</span>
+            <div class="preview-flex">
+                <div class="preview-img-side">
+                    <img id="preview-img" src="" class="preview-main-img" alt="Cover">
+                </div>
+                <div class="preview-info-side">
+                    <h2 id="preview-title">Book Title</h2>
+                    <div class="meta-container">
+                        <span id="meta-pages" class="meta-tag">0 Pages</span>
+                        <span id="meta-size" class="meta-tag">0 MB</span>
+                        <span class="meta-tag">English</span>
+                    </div>
+                    <p id="preview-desc">Description goes here...</p>
+                    <div id="preview-action"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main id="success-page" class="page container hidden">
+    <div class="modal animate text-center" style="border-color: var(--accent); position: relative; overflow: hidden;">
+        <h1 style="color: var(--accent); font-family: 'Cinzel Decorative'; margin-bottom: 15px;">Order Initiated!</h1>        
+        <div class="highlight-box" style="background: rgba(16, 185, 129, 0.05); padding: 20px; border-radius: 15px; border: 1px solid var(--border); margin-bottom: 25px; text-align: left;">
+            <p style="color: var(--text); font-weight: 800; margin-bottom: 10px;">Thank you! for keeping trust on us and hope you enjoy our service</p>
+            <p style="color: var(--text); font-weight: 800; margin-bottom: 10px;">Verification in Progress</p>
+            <ul style="color: #94a3b8; font-size: 0.9rem; margin-left: 20px; list-style-type: '✔ ';">
+                <li>Order confirmed will be sent to your registered <b>MAIL ID</b></li>
+                <li>UTR Number received for manual check.</li>
+                <li>Our store team is manually verifying the credit.</li>
+                <li>Digital link will shortly arrive in your Email.</li>
+                <li>Check your Mail for the details submitted.</li>
+            </ul>
+        </div>
+
+        <p style="color: var(--primary); font-weight: 800; margin-bottom: 20px; letter-spacing: 1px;">ESTIMATED DELIVERY: 2 - 4 HOURS</p>
+        <p style="font-size: 0.8rem; color: #94a3b8; margin-bottom: 30px; opacity: 0.7;">No refunds are permitted for digital items once the process has started.</p>
+        <button class="btn btn-p" onclick="showPage('home')">Return to Store</button>
+    </div>
+</main>
+
+<footer>
+    <p>© 2026 B.S.CHOWDARY DIGITAL BOOKS. Designed for the Next Generation of Readers.<br>Secure • Trusted • Lifetime Access </p>
+        <div style="margin-top:15px;">
+            <a href="privacy.html">Privacy Policy</a> | 
+            <a href="terms.html">Terms of Use</a>
+        </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
